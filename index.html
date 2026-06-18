@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infinity Dental — Your dental home in Ohio. Comfortable family dentistry, same-day emergency care, and personalized treatment with Dr. Herman Deol. Two convenient locations in Kenton and Columbus.">
+  <title>Infinity Dental Ohio | Your Dental Home — Comfortable Family Dentistry</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Mobile Sticky CTAs -->
+  <div class="mobile-cta-bar" aria-hidden="true">
+    <a href="#book" class="mobile-cta mobile-cta--book">Book Appointment</a>
+    <a href="tel:4198480722" class="mobile-cta mobile-cta--call">Call Now</a>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="Infinity Dental Home">
+        <img src="assets/images/logo.png" alt="Infinity Dental" width="180" height="60">
+      </a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#why-choose">Why Us</a></li>
+          <li><a href="#meet-doctor">Our Doctor</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#family">Family Care</a></li>
+          <li><a href="#emergency">Emergency</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="tel:4198480722" class="header__phone">419-848-0722</a>
+        <a href="#book" class="btn btn--primary btn--sm">Book Appointment</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1: Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="assets/images/hero-office.jpg" alt="Infinity Dental welcoming office environment" loading="eager">
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__badge reveal">Your Dental Home in Ohio</div>
+        <h1 class="hero__title reveal">Where Every Smile<br>Feels At Home</h1>
+        <p class="hero__subtitle reveal">Comfortable family dentistry with same-day appointments, personalized care, and a team that treats you like family — not a patient number.</p>
+        <div class="hero__ctas reveal">
+          <a href="#book" class="btn btn--primary btn--lg">Book Appointment</a>
+          <a href="tel:4198480722" class="btn btn--outline btn--lg">Call Now</a>
+          <a href="#emergency" class="btn btn--emergency btn--lg">Emergency Visit</a>
+        </div>
+        <a href="#offers" class="hero__offer-link reveal">New Patient Specials →</a>
+        <div class="hero__trust reveal">
+          <div class="trust-pill"><span class="trust-pill__icon">⚡</span> Same-Day Care</div>
+          <div class="trust-pill"><span class="trust-pill__icon">🚶</span> Walk-Ins Welcome</div>
+          <div class="trust-pill"><span class="trust-pill__icon">✓</span> Accepts Insurance</div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Why Patients Choose -->
+    <section class="section why-choose" id="why-choose">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Why Patients Choose Us</span>
+          <h2 class="section-title">Care That Feels Different</h2>
+          <p class="section-desc">We built Infinity Dental around the things patients actually care about — comfort, trust, and getting help when you need it.</p>
+        </div>
+        <div class="trust-grid">
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Same-Day Care</h3>
+            <p>Urgent concerns addressed today — not weeks from now.</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Family Dentistry</h3>
+            <p>One trusted practice for every generation of your family.</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Comfortable Visits</h3>
+            <p>A warm, calm environment designed to put you at ease.</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <h3>Personalized Attention</h3>
+            <p>Your concerns heard, your options explained, your pace respected.</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+            </div>
+            <h3>Modern Technology</h3>
+            <p>Advanced tools for precise, efficient, comfortable treatment.</p>
+          </article>
+          <article class="trust-card reveal">
+            <div class="trust-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+            </div>
+            <h3>Friendly Team</h3>
+            <p>Genuine people who remember your name and your story.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Meet Dr. Herman Deol -->
+    <section class="section doctor" id="meet-doctor">
+      <div class="container">
+        <div class="doctor__grid">
+          <div class="doctor__image-wrap reveal">
+            <div class="doctor__image-frame">
+              <img src="assets/images/dr-herman-deol.jpeg" alt="Dr. Herman Deol, DDS — Infinity Dental" loading="lazy">
+            </div>
+            <div class="doctor__credentials">
+              <span>McMaster University</span>
+              <span>University of Detroit Mercy DDS</span>
+              <span>Graduated Top of Class</span>
+            </div>
+          </div>
+          <div class="doctor__content reveal">
+            <span class="section-label">Meet Your Dentist</span>
+            <h2 class="section-title">Dr. Herman Deol, DDS</h2>
+            <p class="doctor__lead">Born and raised in Southern Ontario, Canada, Dr. Deol brings academic excellence and genuine compassion to every patient relationship.</p>
+            <p>After earning his Honors Bachelor of Science from McMaster University, he received his Doctor of Dental Surgery from the University of Detroit Mercy — graduating at the top of his class. But what patients remember most isn't his credentials. It's how he makes them feel.</p>
+            <blockquote class="doctor__quote">
+              "I believe dentistry should feel like visiting someone who genuinely cares about you — not a procedure on a schedule. Every patient deserves to feel heard, comfortable, and confident in their care."
+              <cite>— Dr. Herman Deol</cite>
+            </blockquote>
+            <div class="doctor__highlights">
+              <div class="doctor__highlight">
+                <strong>Philosophy</strong>
+                <span>Relationship-first, comfort-focused care</span>
+              </div>
+              <div class="doctor__highlight">
+                <strong>Approach</strong>
+                <span>Clear explanations, gentle treatment</span>
+              </div>
+              <div class="doctor__highlight">
+                <strong>Focus</strong>
+                <span>Family dentistry for all ages</span>
+              </div>
+            </div>
+            <a href="#book" class="btn btn--primary">Schedule With Dr. Deol</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: The Infinity Experience -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">The Infinity Experience</span>
+          <h2 class="section-title">What a Visit Feels Like</h2>
+          <p class="section-desc">From the moment you walk in to the moment you leave smiling — every step is designed around your comfort.</p>
+        </div>
+        <div class="journey">
+          <div class="journey__line" aria-hidden="true"></div>
+          <article class="journey-step reveal">
+            <div class="journey-step__number">01</div>
+            <div class="journey-step__content">
+              <h3>Warm Welcome</h3>
+              <p>You're greeted by name, offered a comfortable seat, and never made to feel rushed.</p>
+            </div>
+          </article>
+          <article class="journey-step reveal">
+            <div class="journey-step__number">02</div>
+            <div class="journey-step__content">
+              <h3>Personalized Consultation</h3>
+              <p>We listen to your concerns, explain your options clearly, and answer every question.</p>
+            </div>
+          </article>
+          <article class="journey-step reveal">
+            <div class="journey-step__number">03</div>
+            <div class="journey-step__content">
+              <h3>Comfortable Treatment</h3>
+              <p>Gentle, thoughtful care in a calm environment — at your pace, on your terms.</p>
+            </div>
+          </article>
+          <article class="journey-step reveal">
+            <div class="journey-step__number">04</div>
+            <div class="journey-step__content">
+              <h3>Confident Smile</h3>
+              <p>You leave feeling better — healthier, more confident, and glad you came.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Family Dentistry -->
+    <section class="section family" id="family">
+      <div class="family__bg">
+        <img src="assets/images/family-hero.jpg" alt="Family smiling together" loading="lazy">
+        <div class="family__overlay"></div>
+      </div>
+      <div class="container family__content">
+        <div class="section-header reveal">
+          <span class="section-label">Family Dentistry</span>
+          <h2 class="section-title section-title--light">Care For Every Generation</h2>
+          <p class="section-desc section-desc--light">From your child's first visit to your parents' ongoing care — one practice, one trusted team, for your entire family.</p>
+        </div>
+        <div class="family-grid">
+          <article class="family-card reveal">
+            <div class="family-card__image">
+              <img src="assets/images/family-children.jpg" alt="Children's dental care" loading="lazy">
+            </div>
+            <div class="family-card__body">
+              <h3>Children</h3>
+              <p>Positive first experiences that build a lifetime of healthy habits.</p>
+            </div>
+          </article>
+          <article class="family-card reveal">
+            <div class="family-card__image">
+              <img src="assets/images/family-adults.jpg" alt="Adult dental care" loading="lazy">
+            </div>
+            <div class="family-card__body">
+              <h3>Parents</h3>
+              <p>Comprehensive care that fits your busy life — same-day when you need it.</p>
+            </div>
+          </article>
+          <article class="family-card reveal">
+            <div class="family-card__image">
+              <img src="assets/images/family-seniors.jpg" alt="Senior dental care" loading="lazy">
+            </div>
+            <div class="family-card__body">
+              <h3>Seniors</h3>
+              <p>Gentle, respectful care that honors your experience and health needs.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Families Stay -->
+    <section class="section families-stay">
+      <div class="container">
+        <div class="families-stay__inner reveal">
+          <div class="families-stay__content">
+            <span class="section-label">Why Families Stay</span>
+            <h2 class="section-title">Generations of Trust</h2>
+            <p>Patients don't just come back — they bring their children, their parents, and their friends. That's the kind of trust we're honored to earn, one visit at a time.</p>
+            <ul class="families-stay__list">
+              <li>Honest, transparent treatment recommendations</li>
+              <li>Consistent care from a team that knows your history</li>
+              <li>Convenient scheduling for the whole household</li>
+              <li>A welcoming office your family actually enjoys visiting</li>
+            </ul>
+          </div>
+          <div class="families-stay__stat">
+            <span class="families-stay__number">6+</span>
+            <span class="families-stay__label">Months booked ahead — because patients trust us</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Signature Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Our Services</span>
+          <h2 class="section-title">How We Improve Your Life</h2>
+          <p class="section-desc">Every service is designed around one question: how does this make your life better?</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-preventive.jpg" alt="Preventive dentistry" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Preventive Dentistry</h3>
+              <p class="service-card__outcome">Stay ahead of problems before they start — and keep your natural smile for life.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-family.jpg" alt="Family dentistry" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Family Dentistry</h3>
+              <p class="service-card__outcome">One trusted home for every member of your family, at every stage of life.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-cosmetic.jpg" alt="Cosmetic dentistry" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Cosmetic Dentistry</h3>
+              <p class="service-card__outcome">Smile with confidence in every photo, meeting, and moment that matters.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-restorative.jpg" alt="Restorative dentistry" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Restorative Dentistry</h3>
+              <p class="service-card__outcome">Eat, speak, and live comfortably again with teeth that look and feel natural.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-implants.jpg" alt="Dental implants" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Dental Implants</h3>
+              <p class="service-card__outcome">A permanent solution that restores your smile's strength and your self-assurance.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-emergency.jpg" alt="Emergency dental care" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Emergency Care</h3>
+              <p class="service-card__outcome">Fast relief when pain strikes — same-day appointments when you need them most.</p>
+              <a href="#emergency" class="service-card__link">Get Help Now →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/service-tmj.jpg" alt="TMJ treatment" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>TMJ Treatment</h3>
+              <p class="service-card__outcome">Find relief from jaw pain, tension, and discomfort that affects your daily life.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="assets/images/gallery-healthy.jpg" alt="Root canal therapy" loading="lazy">
+            </div>
+            <div class="service-card__body">
+              <h3>Root Canal Therapy</h3>
+              <p class="service-card__outcome">Save your natural tooth and end the pain — with gentle, clear, compassionate care.</p>
+              <a href="#book" class="service-card__link">Learn More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Smile Confidence Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Smile Confidence</span>
+          <h2 class="section-title">Transformations That Change Lives</h2>
+          <p class="section-desc">Real results. Real confidence. See what's possible when care is done right.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item--large reveal">
+            <img src="assets/images/gallery-smile.jpg" alt="Beautiful confident smile" loading="lazy">
+            <div class="gallery-item__caption">
+              <span>Cosmetic Dentistry</span>
+              <strong>Confidence restored</strong>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery-happy.jpg" alt="Happy patient smiling" loading="lazy">
+            <div class="gallery-item__caption">
+              <span>Restorative Care</span>
+              <strong>Function & beauty</strong>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery-healthy.jpg" alt="Healthy bright smile" loading="lazy">
+            <div class="gallery-item__caption">
+              <span>Preventive Care</span>
+              <strong>Healthy for life</strong>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery-implants.jpg" alt="Dental implant result" loading="lazy">
+            <div class="gallery-item__caption">
+              <span>Dental Implants</span>
+              <strong>Permanent solution</strong>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cta reveal">
+          <p>Ready to love your smile?</p>
+          <a href="#book" class="btn btn--primary">Start Your Journey</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: Emergency Care -->
+    <section class="section emergency" id="emergency">
+      <div class="container">
+        <div class="emergency__inner reveal">
+          <div class="emergency__content">
+            <span class="section-label section-label--light">Same-Day Emergency Care</span>
+            <h2 class="section-title section-title--light">Dental Pain Can't Wait.<br>Neither Do We.</h2>
+            <p class="emergency__desc">Toothaches, broken teeth, swelling, injuries — when dental emergencies happen, you need help now. Infinity Dental offers same-day emergency appointments when available.</p>
+            <div class="emergency__features">
+              <div class="emergency__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                <span>Same-day appointments</span>
+              </div>
+              <div class="emergency__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                <span>Walk-ins welcome</span>
+              </div>
+              <div class="emergency__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span>Gentle, compassionate relief</span>
+              </div>
+            </div>
+            <div class="emergency__ctas">
+              <a href="tel:4198480722" class="btn btn--white btn--lg">Call Kenton: 419-848-0722</a>
+              <a href="tel:6144186336" class="btn btn--outline-white btn--lg">Call Columbus: 614-418-6336</a>
+            </div>
+          </div>
+          <div class="emergency__visual">
+            <div class="emergency__card">
+              <div class="emergency__card-icon">🚨</div>
+              <h3>Need Help Right Now?</h3>
+              <p>Call us immediately. We'll do everything we can to see you today.</p>
+              <a href="tel:4198480722" class="emergency__phone">419-848-0722</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comfort Promise & Dental Anxiety -->
+    <section class="section comfort-promise">
+      <div class="container">
+        <div class="comfort-grid">
+          <article class="comfort-card reveal">
+            <span class="comfort-card__icon">🤝</span>
+            <h3>Our Comfort Promise</h3>
+            <p>We take extra time with nervous patients, explain every step before we begin, and never rush you through treatment. Your comfort isn't optional — it's our standard.</p>
+          </article>
+          <article class="comfort-card reveal">
+            <span class="comfort-card__icon">💙</span>
+            <h3>Dental Anxiety Support</h3>
+            <p>Nervous about the dentist? You're not alone — and you're in the right place. Our team specializes in making anxious patients feel safe, heard, and in control.</p>
+          </article>
+          <article class="comfort-card reveal">
+            <span class="comfort-card__icon">🏡</span>
+            <h3>Community Connection</h3>
+            <p>We're proud to serve Ohio families in Kenton and Columbus. Continuing the legacy of trusted, relationship-focused care that patients have relied on since 1983.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: Patient Stories -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Patient Stories</span>
+          <h2 class="section-title">What Our Patients Say</h2>
+          <p class="section-desc">Real words from real patients who found their dental home at Infinity Dental.</p>
+        </div>
+        <div class="reviews-slider" id="reviews-slider">
+          <div class="reviews-track" id="reviews-track">
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"There are a few people and places in this world that I can say are truly special. Infinity Dental is on that list. Their guidance, patience, expertise, and professionalism are top-notch. The office is clean, well-appointed, and comfortable. I look forward to my visits!"</blockquote>
+              <footer>
+                <strong>All Star Fame</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"These people are amazing. They care so much about their patients. I'm getting ready to go through a big change, and they have assured me they will be there every step of the way! Love this place!"</blockquote>
+              <footer>
+                <strong>Dot B.</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"I got a tooth pulled at Infinity Dental, and I had little to no pain at all the next day! They did an amazing job! I was worried for nothing. 10/10 recommend! The team is friendly and kind as well."</blockquote>
+              <footer>
+                <strong>Kelsey F.</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"They were booked six months ahead, and that speaks volumes. After my first visit yesterday, it was clear to see why. Everyone is spectacular! The doctor is oh so very kind. Thank you for an all-around great experience!"</blockquote>
+              <footer>
+                <strong>Elizabeth R.</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"From the moment I walked in, the front desk team and hygienists were extremely welcoming and friendly!! Not only did I not feel any pain during my filling, but I left with a smile on my face, knowing I am in good hands with Infinity Dental!"</blockquote>
+              <footer>
+                <strong>Lisa S.</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+            <article class="review-card">
+              <div class="review-card__stars">★★★★★</div>
+              <blockquote>"This is the best dentist I've ever been to! I was nervous going in as I hate the dentist, but he was very calm and reassured me everything was okay. He and all the team members are amazing!!!!"</blockquote>
+              <footer>
+                <strong>Clay A.</strong>
+                <span>Google Review</span>
+              </footer>
+            </article>
+          </div>
+          <div class="reviews-nav">
+            <button class="reviews-nav__btn" id="reviews-prev" aria-label="Previous review">←</button>
+            <div class="reviews-dots" id="reviews-dots"></div>
+            <button class="reviews-nav__btn" id="reviews-next" aria-label="Next review">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet Your Care Team -->
+    <section class="section team" id="team">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Your Care Team</span>
+          <h2 class="section-title">Doctors Who Care</h2>
+          <p class="section-desc">Experienced, compassionate dentists dedicated to making every visit feel personal.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="assets/images/dr-herman-deol.jpeg" alt="Dr. Herman Deol" loading="lazy">
+            </div>
+            <div class="team-card__body">
+              <h3>Dr. Herman Deol, DDS</h3>
+              <span class="team-card__role">Lead Dentist — Kenton</span>
+              <p>McMaster University graduate. Top of class at University of Detroit Mercy. Passionate about family-centered, comfort-focused care.</p>
+            </div>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="assets/images/dr-woody.png" alt="Dr. Muhammad Dawood Parekh" loading="lazy">
+            </div>
+            <div class="team-card__body">
+              <h3>Dr. Muhammad Dawood (Woody) Parekh, DDS</h3>
+              <span class="team-card__role">Lead Dentist — Columbus</span>
+              <p>University of Detroit Mercy DDS. Dedicated general dentist with a passion for treating patients of all ages with warmth and expertise.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: Office Experience -->
+    <section class="section office" id="office">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Office</span>
+          <h2 class="section-title">A Space Designed for Comfort</h2>
+          <p class="section-desc">Clean, modern, and welcoming — see why patients feel at ease from the moment they arrive.</p>
+        </div>
+        <div class="office-gallery">
+          <div class="office-gallery__main reveal">
+            <img src="assets/images/office-main.jpg" alt="Infinity Dental office interior" loading="lazy" id="office-main-img">
+          </div>
+          <div class="office-gallery__thumbs">
+            <button class="office-thumb active" data-src="assets/images/office-main.jpg" aria-label="View office reception">
+              <img src="assets/images/office-thumb.jpg" alt="" loading="lazy">
+            </button>
+            <button class="office-thumb" data-src="assets/images/office-treatment.jpg" aria-label="View treatment room">
+              <img src="assets/images/office-treatment.jpg" alt="" loading="lazy">
+            </button>
+            <button class="office-thumb" data-src="assets/images/office-waiting.jpg" aria-label="View waiting area">
+              <img src="assets/images/office-waiting.jpg" alt="" loading="lazy">
+            </button>
+            <button class="office-thumb" data-src="assets/images/office-equipment.jpg" aria-label="View dental equipment">
+              <img src="assets/images/office-equipment.jpg" alt="" loading="lazy">
+            </button>
+          </div>
+        </div>
+        <div class="office-features reveal">
+          <div class="office-feature"><span>✓</span> Clean, modern environment</div>
+          <div class="office-feature"><span>✓</span> Comfortable waiting areas</div>
+          <div class="office-feature"><span>✓</span> State-of-the-art equipment</div>
+          <div class="office-feature"><span>✓</span> Friendly, welcoming staff</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 11: New Patient Offers -->
+    <section class="section offers" id="offers">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">New Patient Offers</span>
+          <h2 class="section-title">Start Your Journey Today</h2>
+          <p class="section-desc">Exclusive offers for new patients — because your first visit should feel like a welcome, not a commitment.</p>
+        </div>
+        <div class="offers-grid">
+          <article class="offer-card offer-card--featured reveal">
+            <div class="offer-card__badge">Most Popular</div>
+            <div class="offer-card__price">$149</div>
+            <h3>Cleaning, Exam &amp; X-Ray</h3>
+            <p>Complete new patient visit including professional cleaning, comprehensive exam, and digital x-rays.</p>
+            <ul class="offer-card__includes">
+              <li>Professional cleaning</li>
+              <li>Comprehensive exam</li>
+              <li>Digital x-rays</li>
+              <li>Treatment plan review</li>
+            </ul>
+            <a href="#book" class="btn btn--primary btn--block">Claim This Offer</a>
+            <span class="offer-card__note">*For new patients without insurance</span>
+          </article>
+          <article class="offer-card reveal">
+            <div class="offer-card__price">$99</div>
+            <h3>Limited Exam &amp; X-Ray</h3>
+            <p>Focused evaluation for patients with a specific concern or those seeking a second opinion.</p>
+            <ul class="offer-card__includes">
+              <li>Focused dental exam</li>
+              <li>Digital x-rays</li>
+              <li>Consultation with doctor</li>
+            </ul>
+            <a href="#book" class="btn btn--secondary btn--block">Claim This Offer</a>
+            <span class="offer-card__note">*For new patients without insurance</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 12: Insurance & Financing -->
+    <section class="section insurance" id="insurance">
+      <div class="container">
+        <div class="insurance__grid">
+          <div class="insurance__content reveal">
+            <span class="section-label">Insurance &amp; Financing</span>
+            <h2 class="section-title">Care That's Accessible</h2>
+            <p>We believe cost shouldn't stand between you and the care you need. We work with most major insurance plans and offer flexible payment options to make treatment affordable.</p>
+            <ul class="insurance__list">
+              <li>
+                <strong>Insurance Accepted</strong>
+                <span>We accept most major dental insurance plans and will help you understand your benefits.</span>
+              </li>
+              <li>
+                <strong>Flexible Payment Options</strong>
+                <span>Payment plans available to spread the cost of treatment over time.</span>
+              </li>
+              <li>
+                <strong>Transparent Pricing</strong>
+                <span>No surprises. We explain costs upfront before any treatment begins.</span>
+              </li>
+              <li>
+                <strong>New Patient Specials</strong>
+                <span>Affordable introductory offers for patients without insurance coverage.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="insurance__cards reveal">
+            <div class="insurance-card">
+              <div class="insurance-card__icon">🏥</div>
+              <h4>Most Insurance Accepted</h4>
+              <p>We'll verify your benefits and maximize your coverage.</p>
+            </div>
+            <div class="insurance-card">
+              <div class="insurance-card__icon">💳</div>
+              <h4>Flexible Payments</h4>
+              <p>Payment plans to fit your budget and timeline.</p>
+            </div>
+            <div class="insurance-card">
+              <div class="insurance-card__icon">📋</div>
+              <h4>No Hidden Fees</h4>
+              <p>Clear, upfront pricing before treatment starts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 13: First Visit Journey -->
+    <section class="section first-visit" id="first-visit">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Your First Visit</span>
+          <h2 class="section-title">Four Simple Steps to Your Dental Home</h2>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step__number">1</div>
+            <div class="step__icon">📅</div>
+            <h3>Book Appointment</h3>
+            <p>Call us or book online. We'll find a time that works for your schedule.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step__number">2</div>
+            <div class="step__icon">👋</div>
+            <h3>Meet The Team</h3>
+            <p>Arrive to a warm welcome. We'll get to know you and your dental history.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step__number">3</div>
+            <div class="step__icon">🦷</div>
+            <h3>Personalized Treatment</h3>
+            <p>Receive a thorough exam and a clear, honest treatment plan built around your goals.</p>
+          </article>
+          <article class="step reveal">
+            <div class="step__number">4</div>
+            <div class="step__icon">😊</div>
+            <h3>Smile With Confidence</h3>
+            <p>Leave knowing you're in the best hands — with a plan for your healthiest smile.</p>
+          </article>
+        </div>
+        <div class="first-visit__cta reveal">
+          <a href="#book" class="btn btn--primary btn--lg">Book Your First Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 14: Contact & Location -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-label">Visit Us</span>
+          <h2 class="section-title">Two Convenient Ohio Locations</h2>
+        </div>
+        <div class="locations-grid">
+          <article class="location-card reveal">
+            <div class="location-card__header">
+              <h3>Kenton Office</h3>
+              <span class="location-card__badge">Dr. Herman Deol</span>
+            </div>
+            <div class="location-card__details">
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <strong>Address</strong>
+                  <span>965 E Columbus St, Kenton, OH 43326</span>
+                </div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:4198480722">419-848-0722</a>
+                </div>
+              </div>
+            </div>
+            <div class="location-card__map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0!2d-83.6097!3d40.6478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f5e8b8c8c8c8d%3A0x0!2s965%20E%20Columbus%20St%2C%20Kenton%2C%20OH%2043326!5e0!3m2!1sen!2sus!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Infinity Dental Kenton location map"></iframe>
+            </div>
+            <a href="#book" class="btn btn--primary btn--block">Book at Kenton</a>
+          </article>
+          <article class="location-card reveal">
+            <div class="location-card__header">
+              <h3>Columbus Office</h3>
+              <span class="location-card__badge">Dr. Woody Parekh</span>
+            </div>
+            <div class="location-card__details">
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <strong>Address</strong>
+                  <span>1234 Old Henderson Rd #A, Columbus, OH 43220</span>
+                </div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:6144186336">614-418-6336</a>
+                </div>
+              </div>
+            </div>
+            <div class="location-card__map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.0!2d-83.05!3d40.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f3c8c8c8c8d%3A0x0!2s1234%20Old%20Henderson%20Rd%2C%20Columbus%2C%20OH%2043220!5e0!3m2!1sen!2sus!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Infinity Dental Columbus location map"></iframe>
+            </div>
+            <a href="#book" class="btn btn--primary btn--block">Book at Columbus</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Appointment Section -->
+    <section class="section book" id="book">
+      <div class="container">
+        <div class="book__inner reveal">
+          <div class="book__content">
+            <span class="section-label section-label--light">Book Appointment</span>
+            <h2 class="section-title section-title--light">Ready to Find Your Dental Home?</h2>
+            <p>Choose your preferred location and we'll get you scheduled. Same-day appointments available when possible.</p>
+            <div class="book__options">
+              <a href="tel:4198480722" class="book__option">
+                <strong>Kenton</strong>
+                <span>419-848-0722</span>
+              </a>
+              <a href="tel:6144186336" class="book__option">
+                <strong>Columbus</strong>
+                <span>614-418-6336</span>
+              </a>
+            </div>
+          </div>
+          <form class="book__form" id="appointment-form">
+            <h3>Request an Appointment</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(555) 555-5555">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@email.com">
+              </div>
+              <div class="form-group">
+                <label for="location">Preferred Location</label>
+                <select id="location" name="location" required>
+                  <option value="">Select location</option>
+                  <option value="kenton">Kenton — Dr. Herman Deol</option>
+                  <option value="columbus">Columbus — Dr. Woody Parekh</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" rows="3" placeholder="Tell us about your needs or preferred appointment time"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block btn--lg">Request Appointment</button>
+            <p class="form-note">We'll contact you shortly to confirm your appointment.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 15: Final CTA -->
+    <section class="section final-cta">
+      <div class="final-cta__bg">
+        <img src="assets/images/final-cta.jpg" alt="Confident smile" loading="lazy">
+        <div class="final-cta__overlay"></div>
+      </div>
+      <div class="container final-cta__content reveal">
+        <h2>Experience Dentistry<br>That Feels Different</h2>
+        <p>Your dental home is waiting. Join the families who trust Infinity Dental with their smiles.</p>
+        <div class="final-cta__buttons">
+          <a href="#book" class="btn btn--primary btn--lg">Find Your Dental Home</a>
+          <a href="tel:4198480722" class="btn btn--outline-white btn--lg">Call 419-848-0722</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/images/logo.png" alt="Infinity Dental" width="160" height="53">
+          <p>Your dental home in Ohio. Comfortable, family-focused care with same-day appointments and a team that treats you like family.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#why-choose">Why Choose Us</a></li>
+            <li><a href="#meet-doctor">Meet Dr. Deol</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#emergency">Emergency Care</a></li>
+            <li><a href="#offers">New Patient Offers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Kenton Office</h4>
+          <ul>
+            <li>965 E Columbus St</li>
+            <li>Kenton, OH 43326</li>
+            <li><a href="tel:4198480722">419-848-0722</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Columbus Office</h4>
+          <ul>
+            <li>1234 Old Henderson Rd #A</li>
+            <li>Columbus, OH 43220</li>
+            <li><a href="tel:6144186336">614-418-6336</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Infinity Dental. All rights reserved.</p>
+        <p>Designed with care for Ohio families.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
